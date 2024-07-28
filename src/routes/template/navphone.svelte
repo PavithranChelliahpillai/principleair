@@ -59,7 +59,7 @@
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div class="navphone" on:click={() => showDropdown = !showDropdown}>
       <slot />
-      <img src="../favicon.png" alt="logo" />
+      <img src="../favicon.webp" alt="logo" />
       <p>Principal Air Systems</p>
       <img id="menu" src="../menu.webp" alt="menu">
       {#if showDropdown}
