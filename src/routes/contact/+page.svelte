@@ -96,7 +96,6 @@
                         </h1>
                         <Contact></Contact>
                     </div>
-                    <hr id="phone" />
                     <div
                         class="flexchild"
                         style="margin-top: auto; margin-bottom: auto;"
