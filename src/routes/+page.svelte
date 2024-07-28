@@ -137,7 +137,7 @@
     <section class="bigfront">
         {#if ready}
             <video
-                in:fade={{ delay: 20, duration: 1500 }}
+                in:fade={{ delay: 20, duration: 2500 }}
                 id="introvid"
                 muted
                 autoplay
