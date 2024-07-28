@@ -5,7 +5,7 @@
 <div class="footer">
     <slot />
     <footer>
-        <img src="principleairlogo.png" alt="logo" />
+        <img src="principleairlogo.webp" alt="logo" />
         <p style="display: flex; justify-content: center;">info@principleair.com</p>
         <p style="display: flex; justify-content: center;">Copyright © 2024 - All rights reserved</p>
         <p style="display: flex; justify-content: center;">Developed by Pavithran Chelliahpillai</p>

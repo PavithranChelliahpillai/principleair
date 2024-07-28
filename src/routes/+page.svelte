@@ -425,28 +425,28 @@
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\aquablue.webp"
+                            src="/aquablue.webp"
                             alt="aquablue"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\pizzaville.webp"
+                            src="/pizzaville.webp"
                             alt="pizzaville"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\van.webp"
+                            src="/van.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\downsview.webp"
+                            src="/downsview.webp"
                             alt="downsview"
                         />
                     </div>
@@ -460,84 +460,84 @@
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\aspenridge.webp"
+                            src="/aspenridge.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\best.webp"
+                            src="/best.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\fa.webp"
+                            src="/fa.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\cat.webp"
+                            src="/cat.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\graywood.webp"
+                            src="/graywood.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\matera.webp"
+                            src="/matera.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\solp.webp"
+                            src="/solp.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\icon.webp"
+                            src="/icon.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\af.webp"
+                            src="/af.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\pc.webp"
+                            src="/pc.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\von.webp"
+                            src="/von.webp"
                             alt="about us"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\si.webp"
+                            src="/si.webp"
                             alt="about us"
                         />
                     </div>
