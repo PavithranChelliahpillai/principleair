@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^4.7.0",
 		"embla-carousel-autoplay": "^8.1.6",
 		"embla-carousel-svelte": "^8.1.6",
 		"svelte-awesome": "^3.3.1",
