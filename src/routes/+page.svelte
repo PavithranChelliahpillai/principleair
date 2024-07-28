@@ -218,8 +218,8 @@
                             >
                                 <img
                                     class="discon"
-                                    src="\clock.png"
-                                    alt="about us"
+                                    src="\clock.webp"
+                                    alt="clock"
                                 />
                                 <div style="position: absolute; bottom: 0; ">
                                     <h1
@@ -240,8 +240,8 @@
                             >
                                 <img
                                     class="discon"
-                                    src="\license.png"
-                                    alt="about us"
+                                    src="\license.webp"
+                                    alt="license"
                                 />
                                 <div style="position: absolute; bottom: 0; ">
                                     <h1
@@ -262,8 +262,8 @@
                             >
                                 <img
                                     class="discon"
-                                    src="\calendar.png"
-                                    alt="about us"
+                                    src="\calendar.webp"
+                                    alt="calendar"
                                     style="height: auto"
                                 />
                                 <div style="position: absolute; bottom: 0; ">
@@ -285,7 +285,7 @@
             class="dispapp"
             style="border: 1px solid rgba(255, 255, 255, 0.13); border-left: none; border-bottom: none; "
         >
-            <img class="discon" src="\clock.png" alt="about us" />
+            <img class="discon" src="\clock.webp" alt="clock" />
             <div style="position: absolute; bottom: 0; ">
                 <h1
                     style="text-align: center; padding: 0; margin: 0; padding-bottom: 2vh;"
@@ -298,7 +298,7 @@
             class="dispapp"
             style="border: 1px solid rgba(255, 255, 255, 0.13); border-bottom: none; border-left: none;"
         >
-            <img class="discon" src="\license.png" alt="about us" />
+            <img class="discon" src="\license.webp" alt="license" />
             <div style="position: absolute; bottom: 0; ">
                 <h1
                     style="text-align: center; padding: 0; margin: 0; padding-bottom: 2vh;"
@@ -313,8 +313,8 @@
         >
             <img
                 class="discon"
-                src="\calendar.png"
-                alt="about us"
+                src="\calendar.webp"
+                alt="calendar"
                 style="height: auto"
             />
             <div style="position: absolute; bottom: 0; ">
@@ -425,22 +425,15 @@
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\b-logo.png"
-                            alt="about us"
+                            src="\aquablue.webp"
+                            alt="aquablue"
                         />
                     </div>
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\aquablue.png"
-                            alt="about us"
-                        />
-                    </div>
-                    <div class="embla__slide">
-                        <img
-                            style="width: 100%; height: 100%"
-                            src="\pizzaville.png"
-                            alt="about us"
+                            src="\pizzaville.webp"
+                            alt="pizzaville"
                         />
                     </div>
                     <div class="embla__slide">
@@ -453,8 +446,8 @@
                     <div class="embla__slide">
                         <img
                             style="width: 100%; height: 100%"
-                            src="\downsview.png"
-                            alt="about us"
+                            src="\downsview.webp"
+                            alt="downsview"
                         />
                     </div>
                     <div class="embla__slide">
@@ -814,11 +807,11 @@
         background-size: cover;
     }
     #commercial {
-        background-image: url("/commercial.jpg");
+        background-image: url("/commercial.webp");
         background-size: cover;
     }
     #industrial {
-        background-image: url("/industrial.jpg");
+        background-image: url("/industrial.webp");
         background-size: cover;
     }
     .shadow {

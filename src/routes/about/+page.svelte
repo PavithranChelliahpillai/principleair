@@ -275,7 +275,7 @@
 					class="dispapp"
 					transition:fly={{ delay: 300, duration: 1000, x: 100 }}
 				>
-					<img class="discon" src="\comm.png" alt="about us" />
+					<img class="discon" src="\comm.webp" alt="comm" />
 					<div style="position: absolute; bottom: 0; ">
 						<h1 style="margin-bottom: 1vh;">Communication</h1>
 					</div>
@@ -284,7 +284,7 @@
 					class="dispapp"
 					transition:fly={{ delay: 400, duration: 1000, x: 100 }}
 				>
-					<img class="discon" src="\effi.png" alt="about us" />
+					<img class="discon" src="\effi.webp" alt="effi" />
 					<div style="position: absolute; bottom: 0;">
 						<h1 style="margin-bottom: 1vh;">Efficiency</h1>
 					</div>
@@ -293,7 +293,7 @@
 					class="dispapp"
 					transition:fly={{ delay: 500, duration: 1000, x: 100 }}
 				>
-					<img class="discon" src="\quality.png" alt="about us" />
+					<img class="discon" src="\quality.webp" alt="quality" />
 					<div style="position: absolute; bottom: 0;">
 						<h1 style="margin-bottom: 1vh;">Quality</h1>
 					</div>
@@ -302,7 +302,7 @@
 					class="dispapp"
 					transition:fly={{ delay: 600, duration: 1000, x: 100 }}
 				>
-					<img class="discon" src="\fair.png" alt="about us" />
+					<img class="discon" src="\fair.webp" alt="hand" />
 					<div style="position: absolute; bottom: 0;">
 						<h1 style="margin-bottom: 1vh;">Fair Pricing</h1>
 					</div>
