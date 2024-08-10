@@ -145,9 +145,12 @@
                 playsinline
                 disablepictureinpicture
             >
-                <!-- <source src="/bgvid.webm"/> -->
-                <source src="https://www.youtube.com/embed/rvD2TjA4u4o?si=wSBoSfUrMceAu9A_"/>
+                <source src="/bgvid.hevc.mp4"/>
             </video>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <!-- <iframe id="introvid" height="5000"
+                src="https://www.youtube.com/embed/rvD2TjA4u4o?autoplay=1&loop=1&mute=1" >
+            </iframe> -->
         {/if}
         <div style="padding-top: 10vh;"></div>
         <div id="logo" style="position: relative; z-index: 7;">
