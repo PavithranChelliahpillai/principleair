@@ -7,44 +7,73 @@
 
     let projects = [
         {
-            name: "Project 1",
-            image: "/proj1.jpg",
-            date: "11/11/1111",
+            name: "Dectron Pool Units ",
+            image: "/dec.webp",
             description: [
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
+                "Specialty unit for pools, featuring control over humidity levels in pool areas, improving overall air quality",
+                "We offer highly customizable solutions with high durability and long lifespans",
+                "We specialize in installing, troubleshooting, and maintaining this unit",
             ],
+            vid: 0,
+            namet: "Variable Speed Drives",
+            imaget: "/abb.webp",
+            descriptiont: [
+                "Installation and retrofitting of HVAC units with Variable Frequency Drives (VFDs)",
+                "Significant advancement in energy efficiency and operational flexibility for heating, ventilation, and air-conditioning systems",
+                "Our services include the startup and troubleshooting of VFDs",
+            ],
+            vidt: 0,
         },
         {
-            name: "Project 2",
-            image: "/proj2.jpg",
-            date: "11/11/1111",
+            name: "Gas Lines",
+            image: "/gas.webp",
             description: [
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
+                "Our gas line installation services provide reliable and safe solutions for both residential and commercial properties",
+                "We install natural gas lines and propane gas lines",
+                "Our services includ new installations, replacements and upgrades, and repairs",
             ],
+            vid: 0,
+            namet: "York Package Rooftops",
+            imaget: "/york.webp",
+            descriptiont: [
+                "Any Brand, Any Model: We work with all major HVAC brands and models to seamlessly install York package rooftops",
+                "Our services include coil and burner replacement, as well as general servicing and maintenance",
+            ],
+            vidt: 0,
         },
         {
-            name: "Project 3",
-            image: "/proj3.jpg",
-            date: "11/11/1111",
+            name: "AC Minisplits",
+            image: "/ladder.mp4",
             description: [
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
+                "Install both indoor and outdoor units with our specialty inset installation",
+                "Our residential mini-splits solutions are ideal for individual room control and comfortability",
             ],
+            vid: 1,
+            namet: "Daikin Rooftop",
+            imaget: "/daikin.webp",
+            descriptiont: [
+                "A highly innovative and energy-efficient solution for commercial and industrail applications",
+                "The various configurations and durability offer both flexibility and reliability",
+                "We install, maintain, and troubleshoot Daikin rooftop units",
+            ],
+            vidt: 0,
         },
         {
-            name: "Project 4",
-            image: "/proj4.jpg",
-            date: "11/11/1111",
+            name: "Hydronic Boilers",
+            image: "/boiler.webp",
             description: [
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
-                "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, id.",
+                "Energy efficient heating solution for residential and commercial applications",
+                "Our professional installation will ensure quiet operation, providing a comfortable environment",
+                "We specialize in the installation, replacement, and maintenance of hydronic boilers",
             ],
+            vid: 0,
+            namet: "Floor Heating",
+            imaget: "/floor.webp",
+            descriptiont: [
+                "Our specialty underfloor heating services offer a comfortable, uniform warmth distrubtion across the entire floor",
+                "We offer the complete commissioning, servicing, and maintenance of these systems"
+            ],
+            vidt: 0,
         },
     ];
     let cnt = 0;
@@ -120,7 +149,11 @@
                 >
                     <h1
                         style="font-size: 3vw; font-weight: normal; line-height: 0.8; letter-spacing: -0.3vw; margin: 3vh 0vw;"
-                        transition:fade={{ delay: 200, duration: 750, easing: cubicInOut}}
+                        transition:fade={{
+                            delay: 200,
+                            duration: 750,
+                            easing: cubicInOut,
+                        }}
                     >
                         Our Projects
                     </h1>

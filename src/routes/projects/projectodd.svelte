@@ -18,18 +18,61 @@
     <div class="projecte" bind:this={elem1}>
         <slot />
         {#if intersecting}
-            <div class="flexbox imgcon" transition:fly={{delay: 200, duration: 1000, x: -1000}}>
+            <div
+                class="flexbox imgcon"
+                transition:fly={{ delay: 200, duration: 1000, x: -1000 }}
+            >
                 <div class="flexchild">
                     <h1>{project.name}</h1>
-                    <p>{project.date}</p>
                     <ul>
                         {#each project.description as bullet}
                             <li>{bullet}</li>
                         {/each}
                     </ul>
                 </div>
-                <div class="flexchild" style="border-left: none; flex-grow: 2;" transition:fly={{delay: 300, duration: 900, x: -1000}}>
-                    <img src={project.image} alt={project.name} />
+                <div
+                    class="flexchild"
+                    style="border-left: none; flex-grow: 2;"
+                    transition:fly={{ delay: 300, duration: 900, x: -1000 }}
+                >
+                    {#if !project.vid}
+                        <img src={project.image} alt={project.name} />
+                    {:else}
+                        <video
+                            src={project.image}
+                            muted
+                            autoplay
+                            loop
+                            playsinline
+                            disablepictureinpicture
+                        />
+                    {/if}
+                </div>
+                <div class="flexchild">
+                    <h1>{project.namet}</h1>
+                    <ul>
+                        {#each project.descriptiont as bullet}
+                            <li>{bullet}</li>
+                        {/each}
+                    </ul>
+                </div>
+                <div
+                    class="flexchild"
+                    style="border-left: none; flex-grow: 2;"
+                    transition:fly={{ delay: 300, duration: 900, x: -1000 }}
+                >
+                    {#if !project.vidt}
+                        <img src={project.imaget} alt={project.namet} />
+                    {:else}
+                        <video
+                            src={project.imaget}
+                            muted
+                            autoplay
+                            loop
+                            playsinline
+                            disablepictureinpicture
+                        />
+                    {/if}
                 </div>
             </div>
         {/if}
@@ -39,17 +82,34 @@
 <MediaQuery query="(max-width: 1280px)" let:matches>
     {#if matches}
         <style>
-            /* .projecte .flexbox { 
-                display: flex !important; 
-                flex-direction: column-reverse !important; 
-            } */
+            .flexbox {
+                flex-direction: column !important;
+                height: auto !important;
+            }
+            .imgcon {
+                height: auto !important;
+            }
+            .flexchild { 
+                max-height: 80vh !important;
+            }
         </style>
     {/if}
 </MediaQuery>
 
 <style>
-    .projecte { 
-        min-height: 30vh; 
+    .projecte {
+        min-height: 100vh;
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-top: none;
+    }
+    .projecte video  { 
+        position: relative; 
+        left: 50%;
+        transform: translateX(-50%); 
+        height: 100vh;
+    }
+    .imgcon {
+        height: 100vh;
     }
     .flexbox {
         position: relative;
@@ -58,10 +118,18 @@
         flex-wrap: wrap;
         width: 100%;
     }
+    .flexchild h1 {
+        padding-right: 2vw;
+    }
+    img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100vh;
+    }
     .flexchild {
         position: relative;
         /* height: 50vh; */
-        border: 1px solid rgba(255, 255, 255, 0.13);
         border-right: 0;
         top: 0vh;
         flex-grow: 1;
@@ -70,15 +138,13 @@
         border-top: none;
         overflow: hidden;
         flex: 1 1 200px;
+        min-height: 30vh;
     }
-    img {
-        min-width: 100%;
-        min-height: 100%;
+    .flexchild > img {
+        position: relative;
         width: auto;
         height: auto;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
+        max-height: 100vh;
     }
     h1 {
         padding-left: 2vw;
@@ -88,14 +154,8 @@
         letter-spacing: -0.3vw;
         margin: 3vh 0vw;
     }
-    p {
-        padding: 1vh 2vw;
-    }
-    .projecte li { 
-        font-size: 3vh; 
-        padding: 2vh; 
-    }
-    .flexchild p { 
-        font-size: 3vh; 
+    .projecte li {
+        font-size: 3vh;
+        padding: 2vh;
     }
 </style>

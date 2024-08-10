@@ -145,7 +145,7 @@
                 playsinline
                 disablepictureinpicture
             >
-                <source src="/bgvid.mp4" type="video/mp4" />
+                <source src="/bgvid.webm" type="video/mp4" />
             </video>
         {/if}
         <div style="padding-top: 10vh;"></div>
@@ -176,7 +176,11 @@
     </div>
     <div class="flexbox">
         <div id="mimg">
-            <img style="width: 100%" src="\mainlineimg.png" alt="about us" />
+            {#if ready}
+            <video in:blur={{ delay: 200, duration: 2500 }} autoplay muted loop>
+                <source src="\homevid.mp4" />
+            </video>
+            {/if}
         </div>
         <div id="mtext">
             <div
@@ -820,5 +824,13 @@
     }
     #phone {
         display: none;
+    }
+    #mimg video { 
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+    }
+    #mtext { 
+        min-height: 65vh;
     }
 </style>

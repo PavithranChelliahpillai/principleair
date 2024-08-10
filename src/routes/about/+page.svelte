@@ -117,16 +117,11 @@
 			>
 				{#if intersecting && !matches}
 					<div
+						transition:blur={{delay: 0, duration: 2000}}
 						class="box"
-						style="display: flex; justify-content: center; align-items: center;"
+						style="display: flex; justify-content: center; align-items: center;
+						background-image: url('about.webp'); background-size: cover; background-position-y: bottom;"
 					>
-						<img
-							id="bmg"
-							style="height: 20vw"
-							src="\principleairlogo.png"
-							alt=""
-							transition:blur={{ delay: 400, duration: 1000 }}
-						/>
 					</div>
 					<div class="box" style="flex-grow: 2; border-left: none;">
 						<h1
@@ -195,7 +190,7 @@
 				<img
 					id="bmg"
 					style="height: 20vw"
-					src="\principleairlogo.png"
+					src="\about.webp"
 					alt=""
 					transition:blur={{ delay: 400, duration: 1000 }}
 				/>
