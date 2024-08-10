@@ -145,7 +145,8 @@
                 playsinline
                 disablepictureinpicture
             >
-                <source src="/bgvid.webm" type="video/mp4" />
+                <source src="/bgvid.webm"/>
+                <source src="/bgvid.mp4"/>
             </video>
         {/if}
         <div style="padding-top: 10vh;"></div>
@@ -177,7 +178,12 @@
     <div class="flexbox">
         <div id="mimg">
             {#if ready}
-            <video in:blur={{ delay: 200, duration: 2500 }} autoplay muted loop>
+            <video in:blur={{ delay: 200, duration: 2500 }}
+            muted
+            autoplay
+            loop
+            playsinline
+            disablepictureinpicture>
                 <source src="\homevid.mp4" />
             </video>
             {/if}
