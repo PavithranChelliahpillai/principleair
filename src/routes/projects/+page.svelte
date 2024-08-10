@@ -71,7 +71,7 @@
             imaget: "/floor.webp",
             descriptiont: [
                 "Our specialty underfloor heating services offer a comfortable, uniform warmth distrubtion across the entire floor",
-                "We offer the complete commissioning, servicing, and maintenance of these systems"
+                "We offer the complete commissioning, servicing, and maintenance of these systems",
             ],
             vidt: 0,
         },
@@ -179,11 +179,13 @@
                 <Projecto {project} />
             {/if}
         {/each}
-        <style>
-            #proj { 
-                width: 100% !important;
-            }
-        </style>
+        {#if matches}
+            <style>
+                #proj {
+                    width: 100% !important;
+                }
+            </style>
+        {/if}
     </MediaQuery>
     <Footer></Footer>
 </body>
@@ -212,7 +214,7 @@
     #phone {
         display: none;
     }
-    #proj { 
+    #proj {
         width: 50%;
     }
 </style>
