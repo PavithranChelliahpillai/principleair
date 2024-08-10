@@ -212,4 +212,7 @@
     #phone {
         display: none;
     }
+    #proj { 
+        width: 50%;
+    }
 </style>
