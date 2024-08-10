@@ -146,7 +146,7 @@
                 disablepictureinpicture
             >
                 <source src="/bgvid.webm"/>
-                <source src="/bgvid.mp4"/>
+                <source src="https://youtu.be/rvD2TjA4u4o"/>
             </video>
         {/if}
         <div style="padding-top: 10vh;"></div>
