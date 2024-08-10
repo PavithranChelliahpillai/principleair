@@ -158,6 +158,7 @@
                         Our Projects
                     </h1>
                     <p
+                        id="proj"
                         style="width: 50%;"
                         transition:fade={{ delay: 400, duration: 350 }}
                     >
@@ -178,6 +179,11 @@
                 <Projecto {project} />
             {/if}
         {/each}
+        <style>
+            #proj { 
+                width: 100% !important;
+            }
+        </style>
     </MediaQuery>
     <Footer></Footer>
 </body>
