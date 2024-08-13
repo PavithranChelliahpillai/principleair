@@ -142,7 +142,7 @@
 							transition:fade={{ delay: 400, duration: 500 }}
 						>
 							<p id="capt">
-								Established in 2018, with 12 years experience in
+								Established in 2018, with 15 years experience in
 								heating, ventilation, air conditioning,
 								refrigeration and air purification. Performing
 								maintenance, service, installation and sales.
@@ -153,7 +153,7 @@
 							<div id="vwrap">
 								<div class="wrapper">
 									<div class="ic">
-										<Countup value={12} />
+										<Countup value={15} />
 									</div>
 									<p class="icp" style="padding: 0;">Years</p>
 								</div>
@@ -214,7 +214,7 @@
 					transition:fade={{ delay: 400, duration: 500 }}
 				>
 					<p id="capt">
-						Established in 2018, with 12 years experience in
+						Established in 2018, with 5 years experience in
 						heating, ventilation, air conditioning, refrigeration
 						and air purification. Performing maintenance, service,
 						installation and sales. The company is driven by
@@ -224,7 +224,7 @@
 					<div id="vwrap">
 						<div class="wrapper">
 							<div class="ic">
-								<Countup value={12} />
+								<Countup value={15} />
 							</div>
 							<p class="icp" style="padding: 0;">Years</p>
 						</div>

@@ -38,6 +38,9 @@
 <MediaQuery query="(max-width: 1280px)" let:matches>
     {#if matches}
         <style>
+            #offer2 { 
+                margin-left: 2vw !important;
+            }
             .dispapp p {
                 font-size: 2vw !important;
             }
@@ -145,7 +148,9 @@
                 playsinline
                 disablepictureinpicture
             >
-                <source src="/bgvid.hevc.mp4"/>
+                <source src="/bgvid.mkv" type="video/mp4"/>
+                <source src="/bgvid.hevc.mp4" type="video/mp4"/>
+                <source src="/bgvid.webm" type="video/webm"/>
             </video>
             <!-- svelte-ignore a11y-missing-attribute -->
             <!-- <iframe id="introvid" height="5000"
@@ -209,7 +214,7 @@
                             style="padding-left: 5%;"
                             transition:fade={{ delay: 200, duration: 1000 }}
                         >
-                            Learn more about how we can help you with 12 years
+                            Learn more about how we can help you with 15 years
                             experience in heating, ventilation, air
                             conditioning, refrigeration and air purification.
                         </p>
@@ -558,14 +563,14 @@
             </div>
         </div>
     </div>
-    <div class="flexbox" id="offers" style="position: relative; z-index: 3;">
-        <div id="offer1">
+    <div class="" id="offers" style="position: relative; z-index: 3;">
+        <!-- <div id="offer1" style="display: none;">
             <h1
                 style="font-size: 3vw; font-weight: normal; line-height: 0.8; letter-spacing: -0.3vw; margin: 3vh 0vw;  text-align: center;"
             >
                 Special Offer
             </h1>
-            <!-- <p style="font-size: 2.5vw; line-height: 0.8; letter-spacing: -0.2vw; margin: 3vh 0vw; padding-left: 1vw; text-align: center;">Furnace installation comes with a</p> -->
+            <p style="font-size: 2.5vw; line-height: 0.8; letter-spacing: -0.2vw; margin: 3vh 0vw; padding-left: 1vw; text-align: center;">Furnace installation comes with a</p>
             <IntersectionObserver once element={elem3} let:intersecting>
                 <div
                     style="position: relative; text-align: center; align-items: center;"
@@ -577,7 +582,7 @@
                     />
                     {#if intersecting}
                         <p id="free" transition:fade={{ delay: 200 }}>FREE</p>
-                        <!-- <p id="freeout">FREE</p> -->
+                        <p id="freeout">FREE</p>
                         <p id="freeout2" transition:fade={{ delay: 200 }}>
                             FREE
                         </p>
@@ -590,10 +595,10 @@
             >
                 Furnace installation comes with a <b>FREE</b> Ecobee3 Thermostat
             </p>
-        </div>
-        <div id="offer2">
+        </div> -->
+        <div id="offer2" style="margin-left: 24vw; margin-right: auto;">
             <h1
-                style="font-size: 3vw; font-weight: normal; line-height: 0.8; letter-spacing: -0.3vw; margin: 3vh 0vw; padding-left: 1vw; padding-bottom: 3vh; "
+                style="font-size: 3vw; font-weight: normal; line-height: 0.8; letter-spacing: -0.3vw; margin: 3vh 0vw; padding-left: 1vw; padding-right: 5vw;"
             >
                 Ready to digitally regulate your home or office?
             </h1>
@@ -820,11 +825,13 @@
         background-size: cover;
     }
     #commercial {
-        background-image: url("/commercial.webp");
+        background-image: url("/com.webp");
+        background-position: center;
         background-size: cover;
     }
     #industrial {
-        background-image: url("/industrial.webp");
+        background-image: url("/ind.webp");
+        background-position: center;
         background-size: cover;
     }
     .shadow {

@@ -7,7 +7,7 @@
 
     let projects = [
         {
-            name: "Dectron Pool Units ",
+            name: "Dehumidification Units ",
             image: "/dec.webp",
             description: [
                 "Specialty unit for pools, featuring control over humidity levels in pool areas, improving overall air quality",
@@ -18,9 +18,9 @@
             namet: "Variable Speed Drives",
             imaget: "/abb.webp",
             descriptiont: [
-                "Installation and retrofitting of HVAC units with Variable Frequency Drives (VFDs)",
+                "Installation service and retrofitting of Variable Frequency Drives (VFDs)",
                 "Significant advancement in energy efficiency and operational flexibility for heating, ventilation, and air-conditioning systems",
-                "Our services include the startup and troubleshooting of VFDs",
+                "Our services include the supply, startup, commissioning, and service of VFDs",
             ],
             vidt: 0,
         },
@@ -28,33 +28,32 @@
             name: "Gas Lines",
             image: "/gas.webp",
             description: [
-                "Our gas line installation services provide reliable and safe solutions for both residential and commercial properties",
-                "We install natural gas lines and propane gas lines",
-                "Our services includ new installations, replacements and upgrades, and repairs",
+                "Our gas line installation services provide reliable and safe solutions for residential, commercial, and industrial properties",
+                "Our services include new installations, rectifying infractions, replacements, upgrades, and repairs",
             ],
             vid: 0,
-            namet: "York Package Rooftops",
+            namet: "Package Rooftop Units",
             imaget: "/york.webp",
             descriptiont: [
-                "Any Brand, Any Model: We work with all major HVAC brands and models to seamlessly install York package rooftops",
-                "Our services include coil and burner replacement, as well as general servicing and maintenance",
+                "Any Brand, Any Model: We work with all major HVAC brands and models whether it be a new installation, retrofit or service",
+                "Our services include maintenance proposals, on-site evaluations, and energy audits",
             ],
             vidt: 0,
         },
         {
-            name: "AC Minisplits",
+            name: "Split Systems",
             image: "/ladder.mp4",
             description: [
-                "Install both indoor and outdoor units with our specialty inset installation",
-                "Our residential mini-splits solutions are ideal for individual room control and comfortability",
+                "Whether it be a new installation, retrofit, or service, our team is here to assist with the the supply, installation, maitenance, and service to make your system work efforlessly",
+                "Our residential an commercial mini-splits solutions are ideal for individual room control and comfortability",
             ],
             vid: 1,
-            namet: "Daikin Rooftop",
+            namet: "Air Handling Units",
             imaget: "/daikin.webp",
             descriptiont: [
                 "A highly innovative and energy-efficient solution for commercial and industrail applications",
                 "The various configurations and durability offer both flexibility and reliability",
-                "We install, maintain, and troubleshoot Daikin rooftop units",
+                "We install, maintain, and troubleshoot various air handling units, make-up air units, and ecology units",
             ],
             vidt: 0,
         },
@@ -63,8 +62,8 @@
             image: "/boiler.webp",
             description: [
                 "Energy efficient heating solution for residential and commercial applications",
-                "Our professional installation will ensure quiet operation, providing a comfortable environment",
-                "We specialize in the installation, replacement, and maintenance of hydronic boilers",
+                "Our professional installation will ensure quiet and seamless operation, providing a desired environment",
+                "We specialize in the installation, replacement, service, and maintenance of hydronic boilers",
             ],
             vid: 0,
             namet: "Floor Heating",
