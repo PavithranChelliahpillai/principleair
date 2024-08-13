@@ -825,12 +825,12 @@
         background-size: cover;
     }
     #commercial {
-        background-image: url("/com.webp");
+        background-image: url("/ind.webp");
         background-position: center;
         background-size: cover;
     }
     #industrial {
-        background-image: url("/ind.webp");
+        background-image: url("/commm.webp");
         background-position: center;
         background-size: cover;
     }
