@@ -148,7 +148,6 @@
                 playsinline
                 disablepictureinpicture
             >
-                <source src="/bgvid.mkv" type="video/mp4"/>
                 <source src="/bgvid.hevc.mp4" type="video/mp4"/>
                 <source src="/bgvid.webm" type="video/webm"/>
             </video>
