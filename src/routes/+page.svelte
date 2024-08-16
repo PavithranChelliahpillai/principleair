@@ -149,6 +149,7 @@
                 disablepictureinpicture
             >
                 <source src="/bgvid.hevc.mp4" type="video/mp4"/>
+                <source src="/bgvid.mkv" type="video/mkv"/>
                 <source src="/bgvid.webm" type="video/webm"/>
             </video>
             <!-- svelte-ignore a11y-missing-attribute -->
