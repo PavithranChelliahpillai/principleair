@@ -35,10 +35,27 @@
     let elem4;
 </script>
 
+<svelte:head>
+    <title>Principle Air</title>
+    <meta name="title" content="Principle Air " />
+    <meta
+        name="description"
+        content="HVAC/R company serving the GTA with over 15 years of experience. We proudly serve the residential, commercial and industrial sectors."
+    />
+    <meta
+        name="keywords"
+        content="HVAC/R, building automation, commercial, industrial, residential, experienced"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Pavithran Chelliahpillai" />
+</svelte:head>
+
 <MediaQuery query="(max-width: 1280px)" let:matches>
     {#if matches}
         <style>
-            #offer2 { 
+            #offer2 {
                 margin-left: 2vw !important;
             }
             .dispapp p {
@@ -148,9 +165,9 @@
                 playsinline
                 disablepictureinpicture
             >
-                <source src="/bgvid.mp4" type="video/mp4"/>
-                <source src="/bgvid.mkv" type="video/mkv"/>
-                <source src="/bgvid.webm" type="video/webm"/>
+                <source src="/bgvid.mp4" type="video/mp4" />
+                <source src="/bgvid.mkv" type="video/mkv" />
+                <source src="/bgvid.webm" type="video/webm" />
             </video>
             <!-- svelte-ignore a11y-missing-attribute -->
             <!-- <iframe id="introvid" height="5000"
@@ -176,24 +193,23 @@
         </div>
     </section>
     <div class="hflex">
-        <div class="box" style="border-left: 0;">
-        </div>
-        <div class="box">
-        </div>
-        <div class="box">
-        </div>
+        <div class="box" style="border-left: 0;"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
     <div class="flexbox">
         <div id="mimg">
             {#if ready}
-            <video in:blur={{ delay: 200, duration: 2500 }}
-            muted
-            autoplay
-            loop
-            playsinline
-            disablepictureinpicture>
-                <source src="\homevid.mp4" />
-            </video>
+                <video
+                    in:blur={{ delay: 200, duration: 2500 }}
+                    muted
+                    autoplay
+                    loop
+                    playsinline
+                    disablepictureinpicture
+                >
+                    <source src="\homevid.mp4" />
+                </video>
             {/if}
         </div>
         <div id="mtext">
@@ -397,38 +413,38 @@
     </MediaQuery>
     <MediaQuery query="(max-width: 1280px)" let:matches>
         {#if matches}
-        <section
-            class="dispapp"
-            id="residential"
-            transition:fade={{ delay: 0, duration: 500 }}
-        >
-            <!-- <img class="bg" src="\principleairlogo.png" alt="about us" /> -->
-            <div style="position: absolute; bottom: 0;" class="shadow">
-                <h1>Residential</h1>
-                <p>Making your house a comfortable home</p>
+            <section
+                class="dispapp"
+                id="residential"
+                transition:fade={{ delay: 0, duration: 500 }}
+            >
+                <!-- <img class="bg" src="\principleairlogo.png" alt="about us" /> -->
+                <div style="position: absolute; bottom: 0;" class="shadow">
+                    <h1>Residential</h1>
+                    <p>Making your house a comfortable home</p>
+                </div>
+            </section>
+            <div
+                class="dispapp"
+                id="commercial"
+                transition:fade={{ delay: 250, duration: 500 }}
+            >
+                <div style="position: absolute; bottom: 0;" class="shadow">
+                    <h1>Commercial</h1>
+                    <p>Services for your business and property</p>
+                </div>
             </div>
-        </section>
-        <div
-            class="dispapp"
-            id="commercial"
-            transition:fade={{ delay: 250, duration: 500 }}
-        >
-            <div style="position: absolute; bottom: 0;" class="shadow">
-                <h1>Commercial</h1>
-                <p>Services for your business and property</p>
+            <div
+                class="dispapp"
+                id="industrial"
+                style="height: 30vw;"
+                transition:fade={{ delay: 500, duration: 500 }}
+            >
+                <div style="position: absolute; bottom: 0;" class="shadow">
+                    <h1>Industrial</h1>
+                    <p>A custom approach for your facility and sector</p>
+                </div>
             </div>
-        </div>
-        <div
-            class="dispapp"
-            id="industrial"
-            style="height: 30vw;"
-            transition:fade={{ delay: 500, duration: 500 }}
-        >
-            <div style="position: absolute; bottom: 0;" class="shadow">
-                <h1>Industrial</h1>
-                <p>A custom approach for your facility and sector</p>
-            </div>
-        </div>
         {/if}
     </MediaQuery>
     <div style="text-align: center;" bind:this={elem2}>
@@ -841,12 +857,12 @@
     #phone {
         display: none;
     }
-    #mimg video { 
-        width: 100%; 
+    #mimg video {
+        width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    #mtext { 
+    #mtext {
         min-height: 65vh;
     }
 </style>

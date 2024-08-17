@@ -92,6 +92,23 @@
     let elem2;
 </script>
 
+<svelte:head>
+    <title>Our Projects</title>
+    <meta name="title" content="Our Projects" />
+    <meta
+        name="description"
+        content="Explore the wide variety of projects in our catalogue. The catalogue showcases all our services, including residential, commercial, and industrial applications."
+    />
+    <meta
+        name="keywords"
+        content="HVAC/R, building automation, commercial, industrial, residential, experienced"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Pavithran Chelliahpillai" />
+</svelte:head>
+
 <MediaQuery query="(max-width: 1280px)" let:matches>
     {#if matches}
         <style>

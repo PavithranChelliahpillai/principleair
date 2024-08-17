@@ -24,6 +24,23 @@
 	let elem2;
 </script>
 
+<svelte:head>
+    <title>About Us</title>
+    <meta name="title" content="About Us" />
+    <meta
+        name="description"
+        content="Established in 2018, our team's success continues to be driven by performance and customer satisfaction in all sectors."
+    />
+    <meta
+        name="keywords"
+        content="HVAC/R, building automation, commercial, industrial, residential, experienced"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Pavithran Chelliahpillai" />
+</svelte:head>
+
 <MediaQuery query="(max-width: 1280px)" let:matches>
 	{#if matches}
 		<style>
@@ -338,7 +355,7 @@
 	#capt {
 		display: flex;
 		width: 50%;
-		font-size: inherit;
+		font-size: 2.2vh;
 		font-weight: inherit;
 		flex: 1 1 200px;
 		flex-grow: 2;

@@ -14,6 +14,23 @@
     let elem1;
 </script>
 
+<svelte:head>
+    <title>Contact Us</title>
+    <meta name="title" content="Contact Us" />
+    <meta
+        name="description"
+        content="Our team is available Monday to Friday between 8:00 am – 5:00 pm. For emergency matters, we are also available on the weekends and after hours."
+    />
+    <meta
+        name="keywords"
+        content="HVAC/R, building automation, commercial, industrial, residential, experienced"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Pavithran Chelliahpillai" />
+</svelte:head>
+
 <MediaQuery query="(max-width: 1280px)" let:matches>
     {#if matches}
         <style>
