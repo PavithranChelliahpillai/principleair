@@ -36,8 +36,8 @@
 </script>
 
 <svelte:head>
-    <title>Principle Air</title>
-    <meta name="title" content="Principle Air " />
+    <title>Principle Air Systems</title>
+    <meta name="title" content="Principle Air Systems" />
     <meta
         name="description"
         content="HVAC/R company serving the GTA with over 15 years of experience. We proudly serve the residential, commercial and industrial sectors."
