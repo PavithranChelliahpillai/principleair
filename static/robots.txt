@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: principleair.com/sitemap.xml
+Sitemap: https://principleair.com/sitemap.xml
