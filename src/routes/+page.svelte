@@ -50,6 +50,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="English" />
     <meta name="author" content="Pavithran Chelliahpillai" />
+    <script type="application/ld+json">
+        {
+          "@context" : "https://schema.org",
+          "@type" : "WebSite",
+          "name" : "Principle Air Systems Ltd",
+          "url" : "https://principleair.com"
+        }
+    </script>
 </svelte:head>
 
 <MediaQuery query="(max-width: 1280px)" let:matches>
