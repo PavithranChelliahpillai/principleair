@@ -54,7 +54,7 @@
         {
           "@context" : "https://schema.org",
           "@type" : "WebSite",
-          "name" : "Principle Air Systems Ltd",
+          "name" : "Principle Air Systems Inc",
           "url" : "https://principleair.com"
         }
     </script>
